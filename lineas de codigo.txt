@@ -1,0 +1,27 @@
+Todos los codigos:
+
+
+git init // inicia proycto seuusa solo una vez 
+git status // muestra lo que ya subimos o lo que nos falta por subir 
+git add // adiciona carpetas 
+git commit -m "mensaje" /// asigna cmentarios de lo que cambiamos 
+git log /// miestra todos los commit que hicimos 
+git checkout 
+git reset --soft  //no borra codigo  
+git reset --mixed // avanzado 
+git reset --hard   //borra todo
+
+git branch /// mustra las ramas 
+git branch nombre // crea una rama 
+git checkout // moverse en las ramas 
+git branch -d // borra ramas 
+git merge Rama // adiciona toda la rama en la rama que estamos pocicionados
+
+git remote add origin link_github // conectar con github git remote -v // ver nuestra conexion
+
+git remote remove origin // eliminar repositorio remoto
+
+git push origin master // enviar cambios a github
+Issues : Son una forma de continuar, mejorar o solucionar un error en nuestros repositorios (proyectos)
+Milestones : Son grupos de issues que aplican para un proyecto, característica o periodo de tiempo.
+Labels: son una manera de organizar distintos tipos de problemas.
