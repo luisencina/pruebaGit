@@ -25,3 +25,11 @@ git push origin master // enviar cambios a github
 Issues : Son una forma de continuar, mejorar o solucionar un error en nuestros repositorios (proyectos)
 Milestones : Son grupos de issues que aplican para un proyecto, característica o periodo de tiempo.
 Labels: son una manera de organizar distintos tipos de problemas.
+
+git commit --amend -m “aquí escribo mi commit”
+
+	Solo sirve cuando el commit se acaba de hacer, si tu intentas ir a un commit pasado y cambiar el nombre del commit git marcara que cambiaste el commit pero cuando regreses a master en la posición actual y hagas un "git log", verás que el cambio no se hizo.
+
+	git push origin master -f
+		-f sierve para que se fuerce levantar los cambios porque al ser una modificacion de un commit git nos dirá que no hubo 
+		cambios, por ende al hacer con -f se forzará a levantar los cambios  
