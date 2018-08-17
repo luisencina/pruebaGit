@@ -33,3 +33,11 @@ git commit --amend -m “aquí escribo mi commit”
 	git push origin master -f
 		-f sierve para que se fuerce levantar los cambios porque al ser una modificacion de un commit git nos dirá que no hubo 
 		cambios, por ende al hacer con -f se forzará a levantar los cambios  
+
+
+git fetch origin
+	descarga la actualizacion remota a la rama origin/master (ésta rama está oculta y es el espejo que se encuentra en un repositorio remoto)
+
+git merge origin/master
+	mezcla los cambios con la rama oculta (origin/master) con la rama master(HEAD)
+
